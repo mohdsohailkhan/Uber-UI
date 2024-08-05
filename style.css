@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: black;
+    padding: 0.2rem;
+    text-align: center;
+}
+header .head1 ul{
+    display: flex;
+    list-style: none;
+   color: white;
+}
+header .head1 ul li{
+    margin-left: 2rem;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+header .head2 ul{
+    display: flex;
+    list-style: none;
+    margin-left: 35rem;
+    cursor: pointer;
+   color: white;
+   align-items: center;
+}
+header .head2 ul li{
+    margin-left: 2rem;
+    margin-top: 1vh;
+}
+header h2{
+    margin-top: 0.5vh;
+    margin-left: 6rem;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header h2 span{
+    font-size: 2rem;
+}
+header .head2 button{
+    padding: 0.7rem;
+    border-radius: 1.3rem;
+    color: black;
+    background-color: cornsilk;
+    width: 6rem;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    background-color: black;
+}
+main .pic1 img{
+    height: 45rem;
+    width: 35rem;
+    margin-top: 6vh;
+    margin-left: 10rem;
+    border-radius: 4rem;
+    padding: 3rem;
+}
+main h1{
+    margin-top: 14rem;
+    margin-left: 12rem;
+    font-size: 3.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+main .go h1 span{
+    font-size: 4.7rem;
+}
+main .go p{
+    margin-left: 12rem;
+    margin-top: 2vh;
+    font-weight: bolder;
+    color: white;
+}
+main form{
+    margin-left: 12rem;
+    margin-top: 2vh;
+}
+
+main form input[type="text"]{
+    padding: 1rem;
+    width: 25rem;
+    margin-top: 2vh;
+    border-radius: 0.6rem;
+    outline:none;
+}
+main button{
+    margin-left: 12rem;
+    margin-top: 5vh;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 10rem;
+    font-weight: bold;
+    background-color: cornsilk;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    margin-top: 12vh;
+    margin-left: 10rem;
+}
+section .drive img{
+    height: 33rem;
+    width: 33rem;
+    border-radius: 1rem;
+}
+section .you{
+    height: 30rem;
+    width: 30rem;
+    margin-left: 7rem;
+    margin-top: 3.5rem;
+}
+section .you h1{
+    font-size: 3.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section .you p{
+    margin-top: 5vh;
+}
+section .you .get{
+    display: flex;
+    margin-top: 5vh;
+}
+section .you .get button{
+    width: 10rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    text-align: center;
+    position: relative;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+section .you .get p{
+    position: absolute;
+    left: 61rem;
+    top: 80.3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section .you .get p:hover{
+    text-decoration-line: underline;
+}
+.sec{
+    display: flex;
+    margin-top: 15vh;
+    margin-left: 10rem;
+}
+.sec .kkk img{
+    height: 33rem;
+    width: 33rem;
+    border-radius: 1rem;
+}
+.sec .uber{
+    height: 30rem;
+    width: 40rem;
+    margin-left: 0.8rem;
+    margin-top: 3.5rem;
+}
+.sec h1{
+    font-size: 3.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec .uber p{
+    margin-top: 5vh;
+}
+.sec .uber button{
+    width: 10rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    text-align: center;
+    position: relative;
+    padding: 0.8rem;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+.sec .uber .check{
+    position: relative;
+    bottom:  4.4rem;
+    left: 11rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sec .uber .check:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 10rem;
+    cursor: pointer;
+}
+footer .lists{
+    display: flex;
+    margin-left: 12rem;
+    margin-top: 10vh;
+}
+footer .lists ul{
+    list-style: none;
+    margin-right: 12rem;
+}
+footer .lists ul li{
+    margin-bottom: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer p{
+    margin-top: 3rem;
+    margin-left: 12rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer .head h1{
+    margin-left: 12rem;
+    padding-top: 8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.down{
+    display: flex;
+    background-color: rgba(33, 10, 80, 0.902);
+    height: 10rem;
+    justify-content: space-around;
+}
+.down img{
+    height: 1.2rem;
+    color: white;
+}
+.down .location{
+    display: flex;
+}
+.down .fb{
+    margin-top: 5rem;
+    cursor: pointer;
+}
+.down .fb img{
+    margin-right: 6.5rem;
+}
+.down .location{
+    margin-top: 5rem; 
+    cursor: pointer;
+    font-weight: bolder;
+}
+.down .location .lo{
+    margin-left: 1rem;
+}
+.down .location p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.last{
+    height:  5rem;
+    background-color:rgba(33, 10, 80, 0.902);
+}
+.last button{
+    padding: 1rem;
+   background-color: rgb(249, 236, 185);
+   border-radius: 3rem;
+   border: 1px solid rgba(33, 10, 80, 0.902);
+   font-weight: bolder;
+   font-size: 2rem;
+   position: relative;
+   left: 94%;
+}
+.last button a{
+    text-decoration: none;
+}
